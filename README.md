@@ -65,13 +65,7 @@ Make sure you have Node.js (v14.0.0 or above) installed.
    git clone <repository-url>
    ```
 
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd /Users/richieli/Desktop/personal/react_website
-   ```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
 
    ```bash
    npm install
