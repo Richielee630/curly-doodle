@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--secondary-color);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin: 0 0.75rem;
+  }
+}
